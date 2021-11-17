@@ -1,12 +1,25 @@
-body {
-  background: linear-gradient(#e66465, #9198e5);
-}
-
 .container {
   width: 100%;
+  text-align: center;
 }
 
+h1 {
+  text-align: center;
+}
 
 #title {
-  color: blue
+  color: blue;
+  padding-top: 25%;
 }
+
+#digitalClock {
+}
+
+
+#clockDisplay {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+
+.
