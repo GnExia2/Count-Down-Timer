@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Count Down Timer</title>
+    <title>UX Timer</title>
     <link rel="icon" href="./media/google-logo.png">
     <!-- <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
@@ -14,19 +14,19 @@
   <body>
     <section>
       <div class="flex-container">
-        <h1 id="title">Countdown Timer</h1>
+        <h1 id="title">Timer</h1>
 
         <div id="digitalClock">
           <img src="./media/google-logo.png" alt="this should be a clock">
         </div>
 
         <div id="clockDisplay">
-          00:00:00
+          00:00
         </div>
 
         <div class="controls">
           <button id="startStop" onclick="startStop()">Start</button>
-          <button id="reset">Reset</button>
+          <button id="reset" onclick="reset()">Reset</button>
         </div>
       </div>
     </section>
